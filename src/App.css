@@ -2,19 +2,57 @@
   text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
+header{
+  /* background-color: #282c34; */
+  background-color: #0b0000;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
   color: white;
   padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem;
 }
+
+h1{
+  	color: #ba0c0c;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+    margin:0;
+    text-shadow:1.5px 1.5px #6a0000;
+    margin-top: 1rem;
+
+}
+.first-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer{
+  background-color: #0b0000;
+  height: 80px;
+}
+
+
+input {
+  background-color: transparent;
+  height: 100%;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 8px #ddd;
+  border-width: 0.01rem;
+}
+
+
 
 @media (max-width: 600px) {
   .movie-card {
     width: 100%;
+  }
+
+  h1{
+    font-size: 2rem;
   }
 
   .search-bar {
@@ -25,4 +63,6 @@
   .search-bar form {
     flex-direction: column;
   }
+  
 }
+
